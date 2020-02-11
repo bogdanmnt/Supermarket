@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+ <servlet>
+    <description></description>
+    <display-name>ProducatoriServlet</display-name>
+    <servlet-name>ProducatoriServlet</servlet-name>
+    <servlet-class>ro.codrin.supermarket.servlets.ProducatoriServlet</servlet-class>
+  </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>RaionServlet</display-name>
+ 	<servlet-name>RaionServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.RaionServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>TipuriServlet</display-name>
+ 	<servlet-name>TipuriServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.TipuriServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>SupermarketServlet</display-name>
+ 	<servlet-name>SupermarketServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.SupermarketServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>ClientServlet</display-name>
+ 	<servlet-name>ClientServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.ClientServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>FacturaServlet</display-name>
+ 	<servlet-name>FacturaServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.FacturaServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>ProdusServlet</display-name>
+ 	<servlet-name>ProdusServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.ProdusServlet</servlet-class>
+ </servlet>
+ <servlet>
+ 	<description>
+ 	</description>
+ 	<display-name>CosCumparaturiServlet</display-name>
+ 	<servlet-name>CosCumparaturiServlet</servlet-name>
+ 	<servlet-class>ro.codrin.supermarket.servlets.CosCumparaturiServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>ProducatoriServlet</servlet-name>
+    <url-pattern>/producatori</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RaionServlet</servlet-name>
+  	<url-pattern>/raioane</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TipuriServlet</servlet-name>
+  	<url-pattern>/tipuri</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SupermarketServlet</servlet-name>
+  	<url-pattern>/supermarkete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClientServlet</servlet-name>
+  	<url-pattern>/clienti</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FacturaServlet</servlet-name>
+  	<url-pattern>/facturi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProdusServlet</servlet-name>
+  	<url-pattern>/produse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CosCumparaturiServlet</servlet-name>
+  	<url-pattern>/cosCumparaturi</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
+
